@@ -13,6 +13,7 @@
 @import "components/icon-row.css";
 @import "components/no-mobile.css";
 
+@import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/find.css";
 @import "screen/more.css";
@@ -23,65 +24,4 @@ body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
   color: #2e363e;
-}
-
-.welcome-header {
-  margin: 90px 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.welcome-header__title {
-  margin-bottom: 20px;
-  font-size: 25px;
-}
-
-.welcome-header__text {
-  width: 60%;
-  opacity: 0.7;
-}
-
-.login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 30px;
-}
-
-.login-form__input {
-  border: none;
-  padding: 15px 0;
-  font-size: 18px;
-  margin-bottom: 25px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  transition: border-color 0.3s ease-in-out;
-}
-
-.login-form__input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-.login-form__input:focus {
-  border-color: var(--yellow);
-}
-
-.login-form__btn {
-  background-color: var(--yellow);
-  cursor: pointer;
-  padding: 20px 0;
-  border-radius: 5px;
-  border: none;
-  margin-bottom: 25px;
-}
-
-.login-form__a {
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-  font-size: 13px;
-}
-
-.main-screen {
-  padding: 0px var(--horizontal-space);
 }
